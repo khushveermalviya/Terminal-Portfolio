@@ -8,7 +8,7 @@
 
 My perfolio website in terminal version developed with React, TypeScript and Styled-Components. Multiple themes supported and keyboard shortcuts can be used for some functionalities.
 
-Blog Post: https://satnaing.dev/blog/posts/how-do-i-develop-my-terminal-portfolio-website-with-react
+
 
 ## Features
 
@@ -45,7 +45,7 @@ Currently, this website supports 6 themes. Type `themes` in the terminal for mor
 Clone the project
 
 ```bash
-git clone https://github.com/satnaing/terminal-portfolio.git
+git clone https://github.com/khushveermalviya
 ```
 
 Go to the project directory

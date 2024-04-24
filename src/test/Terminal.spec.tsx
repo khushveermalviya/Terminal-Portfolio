@@ -54,10 +54,10 @@ describe("Terminal Component", () => {
       );
     });
 
-    it("should return '/home/satnaing' when user type 'pwd' cmd", async () => {
+    it("should return '/home/khushveer' when user type 'pwd' cmd", async () => {
       await user.type(terminalInput, "pwd{enter}");
       expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
-        "/home/satnaing"
+        "/home/khushveer"
       );
     });
 
@@ -150,7 +150,7 @@ describe("Terminal Component", () => {
       await user.type(terminalInput, "email{enter}");
       expect(window.open).toHaveBeenCalled();
       expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
-        "contact@satnaing.dev"
+        "khushveer"
       );
     });
 
@@ -192,7 +192,7 @@ describe("Terminal Component", () => {
       });
 
       it(`should return usage component for '${cmd}' cmd with extra args`, async () => {
-        const arg = cmd === "themes" ? "set light" : "go 1";
+        const arg = cmd === "themes" ? "dark" : "go 1";
         await user.type(terminalInput, `${cmd} ${arg} extra-arg{enter}`);
         expect(screen.getByTestId(`${cmd}-invalid-arg`)).toBeInTheDocument();
       });

@@ -55,18 +55,7 @@ const socials = [
     url: "https://github.com/khushveermalviya",
     tab: 3,
   },
-  // {
-  //   id: 2,
-  //   title: "Dev.to",
-  //   url: "https://dev.to/satnaing",
-  //   tab: 3,
-  // },
-  // {
-  //   id: 3,
-  //   title: "Facebook",
-  //   url: "https://www.facebook.com/satnaing.dev",
-  //   tab: 1,
-  // },
+
   {
     id: 4,
     title: "Instagram",
