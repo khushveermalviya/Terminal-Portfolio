@@ -13,6 +13,10 @@ export default defineConfig({
       registerType: "autoUpdate",
     }),
   ],
+  server: {
+    port: 3000,
+    host: "localhost"
+  },  
   test: {
     globals: true,
     environment: 'jsdom',
