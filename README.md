@@ -1,4 +1,4 @@
-# Terminal Portfolio Website by Sat Naing
+<!-- # Terminal Portfolio Website by Sat Naing
 
 ![Terminal Portfolio Website by Sat Naing](https://user-images.githubusercontent.com/53733092/194220661-e2ff8b4c-f64a-4b64-a836-c52fae6bbcda.png)
 
@@ -72,13 +72,4 @@ Start the server
 npm run dev
 ```
 
-## Inspiration and Credits
-
-Here are some inspiration for this kind of terminal website. Only some features and functionalities are inspired by these following websites. All codes are written on my own.
-
-- [term m4tt72](https://term.m4tt72.com/)
-- [Forrest](https://fkcodes.com/)
-
-## Author
-
-- [@satnaing](https://satnaing.dev)
+## Inspiration and Credits -->
