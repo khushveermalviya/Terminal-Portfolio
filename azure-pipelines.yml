@@ -25,9 +25,9 @@ stages:
         containerRegistry: 'docker'
         repository: 'Khuhshveer/terminal'
         command: 'buildAndPush'
-        Dockerfile: '**/Dockerfile'
+        Dockerfile: '**/dockerfile'
     - task: PublishBuildArtifacts@1
       inputs:
         PathtoPublish: '$(System.DefaultWorkingDirectory)'
-        ArtifactName: 'Docker_image'
+        ArtifactName: 'docker_image'
         publishLocation: 'Container'
