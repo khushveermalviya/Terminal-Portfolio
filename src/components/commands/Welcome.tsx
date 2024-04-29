@@ -41,13 +41,13 @@ const Welcome: React.FC = () => {
         </PreWrapper>
         <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
         <Seperator>----</Seperator>
-        {/* <div>
-          This project's source code can be found in this project's{" "}
-          <Link href="https://github.com/satnaing/terminal-portfolio">
-            GitHub repo
+        <div>
+          This i My Portfolio{" "}
+          <Link href="https://portfolio-react-khushveer.vercel.app/">
+          Portfolio
           </Link>
           .
-        </div> */}
+        </div>
         <Seperator>----</Seperator>
         <div>
           For a list of available commands, type `<Cmd>help</Cmd>`.
