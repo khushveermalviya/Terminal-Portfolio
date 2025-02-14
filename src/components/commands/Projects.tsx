@@ -56,11 +56,15 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Comming soon",
-    desc: "Comming soon",
-    url: "Comming soon",
+    title: "Edusystem.tech (School Management System)",
+    desc: `Developed a full-stack application using React, Tailwind CSS, Express.js, GraphQL, and SQL, with Redis for caching, Selenium for testing, and Grafana with Prometheus for monitoring.
+           Implemented JWT authentication, Zustand for state management, and local session storage.
+           Deployed the backend on an Azure machine using Docker containers and GitHub Actions.
+           Developed a student-centric mobile app using Capacitor/Ionic, featuring Chart.js visualizations, AI chat, and group discussion capabilities using WebSocket.
+           Features include student/parent and admin panels, attendance system, fee management, report generation, timetable management, and other school-related functionalities.
+           Currently live and prepared for launch in a school setting, demonstrating the system's readiness for real-world implementation and its potential to enhance school operations.`,
+    url: "https://edusystem.tech",
   },
-  
 ];
 
 export default Projects;
