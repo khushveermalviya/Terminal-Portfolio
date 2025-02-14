@@ -11,7 +11,7 @@ const About: React.FC = () => {
         Hi, my name is <HighlightSpan>Khushveer Malviya</HighlightSpan>!
       </p>
       <p>
-        I'm <HighlightAlt>a full-stack developer</HighlightAlt>From
+   I'm <HighlightAlt>a full-stack developerAs well AS deveops Enginner</HighlightAlt>From
         india ,Rajasthan
       </p>
       <p>
